@@ -1,0 +1,90 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-image:url('images/abs2.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	
+}
+
+#wrapper{
+	margin: 0 auto;
+	width:500;
+	height:auto;
+}
+
+h2{
+	color:silver;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1{
+	color:gold;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 50px;
+}
+
+#gameboard{
+	width: 490px;
+	height: 490px;
+	margin: 0 auto;
+	clear: both;
+	position: relative;
+}
+
+#rights{
+	color: white;
+	font-style: italic;
+	float: right;
+	margin-right: 10px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+#reset{
+	display: block;
+	margin: 0 auto;
+	width: 120px;
+	height: 40px;
+	font-size: 30px;
+	margin-top: 10px;
+	visibility: hidden;
+}
+
+#startPanel{
+	position: absolute;
+	top: 20%;
+	left:25%;
+	width: 50%;
+	margin:0 auto;
+	z-index: 1;
+}
+
+#startPanel div{
+	margin: 4;
+	width: 235px;
+	text-align: center;
+    font-size: 17px;	
+    line-height: 25px;
+}
+
+input[type = text]{
+	height: 25;
+}
+
+#start{
+	display: block;
+	margin: 10 auto;
+	width: 60px;
+}
+
+.playerName{
+	color: white;
+}
